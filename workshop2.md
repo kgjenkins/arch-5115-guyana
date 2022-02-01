@@ -12,11 +12,11 @@ All the data and documentation for this workshop can be downloaded from:
 
 ## Elevation raster data
 
-Various scales of elevation data is available for different parts of the world.  Some places like Ithaca, NY may have 1- or 2-meter resolution data available from a local lidar survey.  But for much of the world, the best available is 30-meter SRTM data, collected as part of the Shuttle Radar Topography Mission in 2000.
+Various scales of elevation data is available for different parts of the world.  Some places like Ithaca, NY may have 1- or 2-meter resolution data available from a local lidar survey.  But for much of the world, the best available is 30-meter SRTM data, collected as part of the Shuttle Radar Topography Mission in 2000.  A 90-meter resolution version of SRTM elevation is also available
 
-Due to the large size of these elevation datasets, downloads are divided into smaller tiles.  SRTM data is available in 1x1 degree tiles.  There are various ways of accessing this data, including the "SRTM Downloader" plugin for QGIS, which makes it fairly easy to download all the tiles needed for a given area.  Downloading the data requires registering for a free NASA EarthData login, but data tiles have already been downloaded for you using <http://dwtkns.com/srtm30m/> and merged to a single GeoTIFF (.tif) file for each resolution.
+Due to the large size of these elevation datasets, downloads are divided into smaller tiles.  SRTM data is available in 1x1 degree tiles.  There are various ways of accessing this data, including the "SRTM Downloader" plugin for QGIS, which makes it fairly easy to download all the tiles needed for a given area.  Downloading the data requires registering for a free NASA EarthData login, but data tiles have already been downloaded for you using <http://dwtkns.com/srtm/> and <http://dwtkns.com/srtm30m/> and merged to a single GeoTIFF (.tif) file for each resolution.
 
-* Drag the srtm30m_guyana.tif file onto your project
+* Drag the srtm90m_guyana.tif file onto your project
 
 By default, raster data is displayed with a gray gradient, with higher values brighter.  We can change the style to bring out more details in the data.
 
