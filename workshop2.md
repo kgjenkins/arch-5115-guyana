@@ -114,6 +114,7 @@ Open and configure the Georeferencer:
   * Target SRS = EPSG:3857 (this is the CRS used by most QuickMapServices basemaps)
   * Compression = LZW (for a smaller output file)
   * Save GCP points (in case you want to adjust things later)
+  * Check the box to open the output in QGIS
 
 Find a spot that you can find on both the scanned map and the Google basemap, and add a ground control point:
 
